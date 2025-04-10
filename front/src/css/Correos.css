@@ -1,0 +1,51 @@
+.Correos {
+    background-color: lightgrey;
+}
+
+.Correo {
+    background-color: white;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1em;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.419);
+}
+
+.Correo-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(50, 71, 135, 0.259);
+}
+
+.Correo-left {
+    width: 20%;
+    
+}
+
+.Correo-img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.Correo-right {
+    width: 80%;
+
+}
+
+.Correo-remitente {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    border-bottom: 1px solid rgba(50, 71, 135, 0.259);
+}
+
+.Correo-asunto {
+    text-align: left;
+}
+
+.Correo-contenido {
+    text-align: left;
+}
